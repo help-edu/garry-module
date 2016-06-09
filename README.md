@@ -30,6 +30,6 @@ Connect lua_shared.lib to your project (as you know)
 Include lua5.1 like you including anything
 (Подключить включения lua5.1 в ваш проект)
 
-## Stel .4
+## Step .4
 Use glua like normal lua machine. Look example.cpp
 (Использовать glua как обычную луа машину, смотреть example.cpp)
