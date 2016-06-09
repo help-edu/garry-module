@@ -11,3 +11,4 @@ This sources helps you to create a module for garry's mod without official inter
 
 or if you lazy, just use my script https://github.com/help-edu/python-ball/blob/master/convert_to_lib.py
 
+Official C++ module support https://github.com/garrynewman/gmod-module-base
