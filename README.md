@@ -36,7 +36,7 @@ Use glua like normal lua machine. Look example.cpp
 
 ## Step .5 Final
 Compile it like DLL and put result to {$YourServer}/garrysmod/lua/bin in format gmsv_{name}_win{arch}.dll
-and call require("{name}") in your lua script for load module. Module will be loaded if there is not errors.
+and call require("{name}") in your lua script (it will start loading your module).
 
 (Скомпилировать это как dll и переименовать согласно формату gmsv_{name}_win{arch}.dll, после чего, вызвать require("{name}") в вашем скрипте .luа, после чего ваш модуль загрузится в систему.)
 
