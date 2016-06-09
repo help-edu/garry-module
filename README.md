@@ -13,7 +13,7 @@ or if you lazy, just use my script https://github.com/help-edu/python-ball/blob/
   (если вы достаточно ленивы, тогда можете воспользоваться моим скриптом <ссылка_выше>)
 
 Official C++ module support https://github.com/garrynewman/gmod-module-base
-  (Оффициальная поддержка С++ модулей для гмода)
+  (Оффициальная поддержка С++ модулей для гмода, использовать не рекомендую)
 
 Lua5.1 includes what we need https://sourceforge.net/projects/luabinaries/files/5.1.4/ (includes only)
   (Lua5.1 включения, которые нам нужны, находятся по адресу <ссылка_выше>)
