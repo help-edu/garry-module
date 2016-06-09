@@ -5,21 +5,21 @@
 #include <iostream>
 
 extern "C" {
-  #include "lua.h"
-  #include "lualib.h"
-  #include "lauxlib.h"
+  	#include "lua.h"
+  	#include "lualib.h"
+	#include "lauxlib.h"
 }
 
 DLL_EXPORT int gmod13_open(lua_State *L)
 {
-  std::wcout << L"Hello world!" << std::endl;
+  	std::wcout << L"Hello world!" << std::endl;
   
-  luaL_dostring(L, "print('Hello, world!')")
+  	luaL_dostring(L, "print('Hello, world!')")
 
-  lua_getglobal(L, "_VERSION")
-  std::cout << "_VERSION: " 
-          << lua_tostring(L, -1) << std::endl;
-  lua_pop(L, 1);
+  	lua_getglobal(L, "_VERSION")
+  	std::cout << "_VERSION: " 
+          	<< lua_tostring(L, -1) << std::endl;
+  	lua_pop(L, 1);
 
 	return 0;
 }
