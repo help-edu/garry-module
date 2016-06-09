@@ -33,3 +33,7 @@ Include lua5.1 like you including anything
 ## Step .4
 Use glua like normal lua machine. Look example.cpp
 (Использовать glua как обычную луа машину, смотреть example.cpp)
+
+UPLOAD (ЗАГРУЖЕНО)
+DD/MM/YYYY
+09/06/2016
