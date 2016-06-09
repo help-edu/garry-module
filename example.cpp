@@ -4,6 +4,12 @@
 
 #include <iostream>
 
+#ifdef _WIN32
+	#define  DLL_EXPORT extern "C" __declspec( dllexport )
+#else
+	#define DLL_EXPORT	extern "C" __attribute__((visibility("default")))	
+#endif
+
 extern "C" {
   	#include "lua.h"
   	#include "lualib.h"
