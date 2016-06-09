@@ -12,7 +12,7 @@ extern "C" {
 
 DLL_EXPORT int gmod13_open(lua_State *L)
 {
-  	std::wcout << L"Hello world!" << std::endl;
+  	std::wcout << L"Module loaded." << std::endl;
   
   	luaL_dostring(L, "print('Hello, world!')")
 
@@ -26,6 +26,7 @@ DLL_EXPORT int gmod13_open(lua_State *L)
 
 DLL_EXPORT int gmod13_close(lua_State* state)
 {
+	std::wcout << L"Module unloaded." << std::endl;
 	return 0;
 }
 
