@@ -31,5 +31,5 @@ Include lua5.1 like you including anything
 (Подключить включения lua5.1 в ваш проект)
 
 ## Stel .4
-Use glua like normal lua machine.
-(Использовать glua как обычную луа машину)
+Use glua like normal lua machine. Look example.cpp
+(Использовать glua как обычную луа машину, смотреть example.cpp)
