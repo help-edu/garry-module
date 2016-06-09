@@ -34,6 +34,12 @@ Include lua5.1 like you including anything
 Use glua like normal lua machine. Look example.cpp
 (Использовать glua как обычную луа машину, смотреть example.cpp)
 
+## Step .5 Final
+Compile it like DLL and put result to {$YourServer}/garrysmod/lua/bin in format gmsv_{name}_win{arch}.dll
+and call require("{name}") in your lua script for load module. Module will be loaded if there is not errors.
+
+(Скомпилировать это как dll и переименовать согласно формату gmsv_{name}_win{arch}.dll, после чего, вызвать require("{name}") в вашем скрипте .luа, после чего ваш модуль загрузится в систему.)
+
 UPLOAD (ЗАГРУЖЕНО)
 DD/MM/YYYY
 09/06/2016
