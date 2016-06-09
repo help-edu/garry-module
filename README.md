@@ -12,3 +12,17 @@ This sources helps you to create a module for garry's mod without official inter
 or if you lazy, just use my script https://github.com/help-edu/python-ball/blob/master/convert_to_lib.py
 
 Official C++ module support https://github.com/garrynewman/gmod-module-base
+
+Lua5.1 includes what we need https://sourceforge.net/projects/luabinaries/files/5.1.4/ (includes only)
+
+## Step .1
+Convert lua_shared.dll to lua_shared.lib
+
+## Step .2
+Connect lua_shared.lib to your project (as you know)
+
+## Step .3
+Include lua5.1 like you including anything
+
+## Stel .4
+Use glua like normal lua machine.
